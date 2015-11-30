@@ -2,10 +2,15 @@
   
 int main() {
   
-    float x,y;
-    scanf("%f %f", &x, &y);
+    double A, B, C, M;
      
-    printf("MEDIA = %.5f\n", (x*3.5+y*7.5)/(3.5+7.5));
+    scanf("%lf", &A);
+    scanf("%lf", &B);
+    scanf("%lf", &C);
+  
+    M = (A * 2 + B * 3 + C * 5) / (2 + 3 + 5);
+     
+    printf("MEDIA = %.1lf\n", M);
   
     return 0;
 }
